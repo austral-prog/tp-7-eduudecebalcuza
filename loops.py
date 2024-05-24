@@ -9,7 +9,6 @@ def index_of_empty(list):
         if index == "":
             return i
     return -1
-print(index_of_empty(colors))
 
 def index_of(word, list):
     for i, index in enumerate(list):
